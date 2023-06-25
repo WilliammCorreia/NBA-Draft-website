@@ -1,0 +1,17 @@
+body {
+    background-color: #1d428a;
+}
+
+.navbar {
+    background-color: #c8102e;
+}
+
+.list {
+    /* Pour enlever les points des liens */
+    list-style-type: none;
+    display: inline-flex;
+    margin: none;
+    padding: none;
+}
+
+.list li {}
