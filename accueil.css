@@ -14,6 +14,7 @@ body {
     position: relative;
     left: 12%;
     margin-top: 3%;
+    margin-bottom: 5%;
 }
 
 .navbar ul {
@@ -65,4 +66,13 @@ body {
     border-radius: 50px;
     padding: 13%;
     border: solid 3px black;
+}
+
+img {
+    width: 600px;
+    margin-right: 10px;
+}
+
+main ul {
+    display: inline-flex;
 }
