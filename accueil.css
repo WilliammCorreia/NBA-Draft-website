@@ -1,6 +1,7 @@
 body {
     background-color: #1d428a;
     margin: 0;
+    overflow: hidden;
 }
 
 
@@ -92,16 +93,59 @@ main ul {
     padding: 0;
 }
 
+main li {
+    position: relative;
+}
+
+main p {
+    color: #ffffff00;
+    position: absolute;
+    bottom: 25%;
+    left: 15%;
+    font-size: 400%;
+    font-family: NBA;
+}
+
+main p:hover {
+    color: #ffffff;
+    position: absolute;
+    bottom: 25%;
+    left: 19%;
+    font-size: 400%;
+    font-family: NBA;
+}
+
+#Wembanyama p {
+    color: #ffffff00;
+    position: absolute;
+    bottom: 25%;
+    left: 8%;
+    font-size: 400%;
+    font-family: NBA;
+}
+
+#Wembanyama p:hover {
+    color: #ffffff;
+    position: absolute;
+    bottom: 25%;
+    left: 8%;
+    font-size: 400%;
+    font-family: NBA;
+}
+
 
 /* Partie du footer  */
 
 footer {
     background-color: #191919;
     color: #919399;
-    padding: 3%;
+    padding: 2%;
+    position: relative;
+    top: 50px;
     text-align: center;
 }
 
-footer h3 {
+footer h5 {
     margin: 0;
+    font-family: adobe-clean, Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
 }
