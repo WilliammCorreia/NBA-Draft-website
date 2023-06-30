@@ -1,0 +1,114 @@
+body {
+    background-color: #1d428a;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+/* Partie de la Nav Bar  */
+
+.navbar {
+    background-color: #c8102e;
+    border-radius: 30px;
+    border: solid 3px rgb(0, 0, 0);
+    width: 75%;
+    height: 50px;
+    position: relative;
+    left: 12%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.navbar ul {
+    /* Pour enlever les points des liens */
+    list-style-type: none;
+    display: inline-flex;
+    width: 92%;
+}
+
+@font-face {
+    font-family: 'NBA';
+    src: url('font-family/NBA Pacers.ttf') format('truetype');
+}
+
+.navbar a {
+    position: absolute;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 145%;
+    font-family: NBA;
+}
+
+.navbar a:hover {
+    color: #1d428a;
+}
+
+#players {
+    left: 16%;
+    bottom: 23%;
+}
+
+#nba {
+    left: 43%;
+    bottom: 23%;
+}
+
+#teams {
+    left: 73%;
+    bottom: 23%;
+}
+
+.navbar img {
+    width: 90px;
+    height: 80px;
+    position: relative;
+    top: 45px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 13%;
+    border: solid 3px black;
+}
+
+
+/* Partie du main */
+
+main {
+    overflow: auto;
+}
+
+main::-webkit-scrollbar {
+    background: #1d428a;
+}
+
+img {
+    width: 600px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border: #191919 solid 7px;
+}
+
+main div {
+    position: absolute;
+    bottom: 180px;
+    left: 700px;
+    font-size: 150%;
+    font-family: NBA;
+    color: #ffffff;
+}
+
+
+/* Partie du footer  */
+
+footer {
+    background-color: #191919;
+    color: #919399;
+    padding: 2%;
+    position: relative;
+    top: 53px;
+    text-align: center;
+}
+
+footer h5 {
+    margin: 0;
+    font-family: adobe-clean, Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+}
