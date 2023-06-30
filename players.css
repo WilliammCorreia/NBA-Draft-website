@@ -73,65 +73,26 @@ body {
 /* Partie du main */
 
 main {
-    overflow: auto;
-}
-
-main::-webkit-scrollbar {
-    background: #1d428a;
-}
-
-img {
-    width: 600px;
-    margin-right: 15px;
-}
-
-main ul {
-    display: inline-flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-main li {
-    position: relative;
-}
-
-main p {
-    color: #ffffff00;
+    font-size: 200%;
+    color: white;
     position: absolute;
-    bottom: 25%;
-    left: 15%;
-    font-size: 400%;
+    left: 33%;
+    font-family: monospace;
+}
+
+@font-face {
+    font-family: 'NBA';
+    src: url('font-family/NBA Pacers.ttf') format('truetype');
+}
+
+main span {
     font-family: NBA;
 }
 
-main p:hover {
-    color: #ffffff;
-    position: absolute;
-    bottom: 25%;
-    left: 19%;
-    font-size: 400%;
-    font-family: NBA;
+.trade {
+    font-size: 70%;
+    font-family: monospace;
 }
-
-#Wembanyama p {
-    color: #ffffff00;
-    position: absolute;
-    bottom: 25%;
-    left: 8%;
-    font-size: 400%;
-    font-family: NBA;
-}
-
-#Wembanyama p:hover {
-    color: #ffffff;
-    position: absolute;
-    bottom: 25%;
-    left: 8%;
-    font-size: 400%;
-    font-family: NBA;
-}
-
 
 /* Partie du footer  */
 
@@ -140,7 +101,7 @@ footer {
     color: #919399;
     padding: 2%;
     position: relative;
-    top: 50px;
+    top: 468px;
     text-align: center;
 }
 
